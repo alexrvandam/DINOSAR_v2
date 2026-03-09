@@ -6,7 +6,7 @@
 
 **DINOSAR v2** (**DINO**v3 **S**pecies **A**uto **R**ecovery version 2) is a multi-modal, Bayesian framework for automated species delimitation in hyperdiverse insect taxa. It fuses three independent evidence streams — vision embeddings, morphological measurements, and DNA barcodes — into a unified adaptive Bayesian classifier that scales to dark taxa with few labelled specimens.
 
-DINOSAR v2 was developed at the **Museum für Naturkunde Berlin (MfN)** within the Centre for Integrative Biodiversity Discovery with Dr. Francisco Hit Garcia as part of and designed to work hand-in-hand with the [Descriptron annotation platform](https://github.com/alexrvandam/Descriptron).
+DINOSAR v2 was developed with Dr. Francisco Hita Garcia as part of and designed to work hand-in-hand with the [Descriptron annotation platform](https://github.com/alexrvandam/Descriptron).
 
 ---
 
