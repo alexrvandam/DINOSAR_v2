@@ -4,9 +4,9 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)](https://pytorch.org/)
 
-**DINOSAR v2** (**DI**NO-based **N**eural **O**ntology for **S**pecimen **A**nalysis and **R**ecognition, version 2) is a multi-modal, Bayesian framework for automated species delimitation in hyperdiverse insect taxa. It fuses three independent evidence streams — vision embeddings, morphological measurements, and DNA barcodes — into a unified adaptive Bayesian classifier that scales to dark taxa with few labelled specimens.
+**DINOSAR v2** (**DINO**v3 **S**pecies **A**uto **R**ecovery version 2) is a multi-modal, Bayesian framework for automated species delimitation in hyperdiverse insect taxa. It fuses three independent evidence streams — vision embeddings, morphological measurements, and DNA barcodes — into a unified adaptive Bayesian classifier that scales to dark taxa with few labelled specimens.
 
-DINOSAR v2 was developed at the **Museum für Naturkunde Berlin (MfN)** within the Centre for Integrative Biodiversity Discovery as part of the **TECTAX** (Taxonomic Expert Collection for Taxonomic AI eXploration) initiative, and is designed to work hand-in-hand with the [Descriptron annotation platform](https://github.com/alexrvandam/Descriptron).
+DINOSAR v2 was developed at the **Museum für Naturkunde Berlin (MfN)** within the Centre for Integrative Biodiversity Discovery as part of and designed to work hand-in-hand with the [Descriptron annotation platform](https://github.com/alexrvandam/Descriptron).
 
 ---
 
@@ -238,7 +238,7 @@ A full methods paper describing the two-tier DINOSAR + Descriptron system is in 
 
 ## Acknowledgements
 
-DINOSAR v2 was developed at the **Museum für Naturkunde Berlin** within the Centre for Integrative Biodiversity Discovery. Development was supported by the MfN Innovation Fund and the TECTAX PhD programme. We thank Dr. Francisco Hita Garcia for taxonomic expertise on hyperdiverse ant genera and for providing training datasets for *Tetramorium* and related genera.
+DINOSAR v2 was developed at the **Museum für Naturkunde Berlin** within the Centre for Integrative Biodiversity Discovery. I thank Dr. Francisco Hita Garcia for taxonomic expertise on hyperdiverse ant genera and for providing training datasets for *Tetramorium* and related genera.
 
 The DINOv3 backbone is provided by Meta AI Research ([Oquab et al. 2023](https://arxiv.org/abs/2304.07193)).
 
