@@ -30,7 +30,6 @@ DINOSAR v2 was developed with Dr. Francisco Hita Garcia as part of and designed 
 
 ### Key features
 
-- **Zero-shot species discovery** — progressive incremental clustering (A, B, C…) from unlabelled image collections using a DINOv3 contrastive backbone
 - **Multi-view fusion** — dorsal, lateral, and frontal views combined into per-specimen embeddings
 - **Adaptive Bayesian fusion** — per-specimen reliability gates prevent any single modality from dominating; DNA weight is hard-capped at ~30%
 - **Open-set novel species detection** — specimens that fall outside known clusters are flagged rather than force-assigned
