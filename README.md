@@ -4,7 +4,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)](https://pytorch.org/)
 
-**DINOSAR v2** (**DI**NO-based **N**eural **O**ntology for **S**pecimen **A**nalysis and **R**ecognition, version 2) is a multi-modal, Bayesian framework for automated species delimitation in hyperdiverse insect taxa. It fuses three independent evidence streams — vision embeddings (DINOv3), morphological measurements (from Descriptron COCO JSON), and DNA barcodes (COI FASTA) — into a unified adaptive Bayesian classifier that scales to dark taxa with few labelled specimens.
+**DINOSAR v2** — **DINO**v3 **S**pecies **A**uto-**R**ecovery version 2, is a multi-modal, Bayesian framework for automated species delimitation in hyperdiverse insect taxa. It fuses three independent evidence streams — vision embeddings (DINOv3), morphological measurements (from Descriptron COCO JSON), and DNA barcodes (COI FASTA) — into a unified adaptive Bayesian classifier that scales to dark taxa with few labelled specimens.
 
 DINOSAR_v2 is designed to work hand-in-hand with the [Descriptron](https://github.com/alexrvandam/Descriptron) annotation platform.
 
