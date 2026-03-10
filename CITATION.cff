@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use DINOSAR v2 in your research, please cite it using the metadata below."
+type: software
+title: "DINOSAR v2 — DINOv3 Species Auto-Recovery version 2: Multi-modal Bayesian species delimitation and recognition for hyperdiverse insect taxa"
+abstract: >
+DINOSAR v2 — DINOv3 Species Auto-Recovery version 2, is a multi-modal, Bayesian framework for automated species delimitation in hyperdiverse insect taxa. It fuses three independent evidence streams — vision embeddings (DINOv3), morphological measurements (from Descriptron COCO JSON), and DNA barcodes (COI FASTA) — into a unified adaptive Bayesian classifier that scales to dark taxa with few labelled specimens.
+authors:
+  - family-names: "Van Dam"
+    given-names: "Alex R."
+    orcid: "https://orcid.org/0000-0002-1966-0338"
+    affiliation: "Museum für Naturkunde Berlin, Centre for Integrative Biodiversity Discovery"
+version: "0.2.0"
+doi: 10.5281/zenodo.18935713
+date-released: "2026-03-10"
+license: MIT
+repository-code: "https://github.com/alexrvandam/DINOSAR_v2"
+keywords:
+  - species delimitation
+  - DINOv3
+  - contrastive learning
+  - Bayesian fusion
+  - taxonomy
+  - dark taxa
+  - COI barcodes
+  - morphometrics
+  - insects
+  - museum informatics
