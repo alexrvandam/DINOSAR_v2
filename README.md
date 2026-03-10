@@ -230,7 +230,7 @@ See the workflow diagram PDF in the [Releases](https://github.com/alexrvandam/DI
 If you use DINOSAR v2 in your research, please cite:
 
 ```text
-Van Dam, A. (2026). *DINOSAR v2 — DINOv3 Species Auto-Recovery version 2: Multi-modal Bayesian species delimitation and recognition for hyperdiverse insect taxa*. [Computer Software] Available at: https://github.com/alexrvandam/DINOSAR_v2.DINOSAR. DOI: https://doi.org/10.5281/zenodo.18935714
+> Van Dam, A. (2026). *DINOSAR v2 — DINOv3 Species Auto-Recovery version 2: Multi-modal Bayesian species delimitation and recognition for hyperdiverse insect taxa*. [Computer Software] Available at: https://github.com/alexrvandam/DINOSAR_v2.DINOSAR. DOI: https://doi.org/10.5281/zenodo.18935714
 ```
 
 A full methods paper describing the two-tier DINOSAR + Descriptron system is in preparation.
