@@ -237,7 +237,7 @@ A full methods paper describing the two-tier DINOSAR + Descriptron system is in 
 
 ## Acknowledgements
 
-DINOSAR v2 was developed at the **Museum für Naturkunde Berlin** within the Centre for Integrative Biodiversity Discovery. Development was supported by the MfN Innovation Fund and the TECTAX PhD programme. We thank Dr. Francisco Hita Garcia for taxonomic expertise on hyperdiverse ant genera and for providing training datasets for *Tetramorium* and related genera.
+DINOSAR v2 was developed at the **Museum für Naturkunde Berlin** within the Centre for Integrative Biodiversity Discovery. I thank Dr. Francisco Hita Garcia for taxonomic expertise on hyperdiverse ant genera and for providing training datasets for *Tetramorium* and related genera.
 
 The DINOv3 backbone is provided by Meta AI Research ([Oquab et al. 2023](https://arxiv.org/abs/2304.07193)).
 
