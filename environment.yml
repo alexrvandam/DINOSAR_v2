@@ -1,0 +1,53 @@
+name: dinosar_v2
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.10
+
+  # PyTorch with CUDA 12.1 (change cu121 → cu118 for CUDA 11.8, or cpuonly for CPU)
+  - pytorch::pytorch>=2.1
+  - pytorch::torchvision>=0.16
+  - pytorch::pytorch-cuda=12.1
+
+  # Core scientific stack
+  - numpy>=1.24
+  - scipy>=1.11
+  - pandas>=2.0
+  - scikit-learn>=1.3
+  - scikit-image>=0.21
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  - pyyaml>=6.0
+
+  # Computer vision
+  - opencv>=4.8                   # cv2
+
+  # Image handling
+  - pillow>=10.0                  # PIL
+
+  # pip-only packages
+  - pip
+  - pip:
+      # Background removal (used in preprocessing / v82 pipeline)
+      - rembg>=2.0.50
+
+      # Multiple Factor Analysis (MFA) for mixed morphology data
+      - prince>=0.12.1
+
+      # SMOTE oversampling for rare species
+      - imbalanced-learn>=0.11
+
+      # ONNX runtime (optional — for ONNX export of trained models)
+      - onnxruntime-gpu>=1.16; sys_platform != "darwin"
+      - onnxruntime>=1.16; sys_platform == "darwin"
+
+      # Biopython (optional — for advanced FASTA/alignment handling)
+      - biopython>=1.81
+
+      # tqdm (progress bars)
+      - tqdm>=4.65
