@@ -1,4 +1,4 @@
-# DINOSAR v2 — DINOv3-based Species Delimitation and Recognition
+# *DINOSAR v2 — **DINO**v3 **S**pecies **A**uto-**R**ecovery version 2: Multi-modal Bayesian species delimitation and recognition for hyperdiverse insect taxa*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
@@ -6,7 +6,7 @@
 
 **DINOSAR v2** (**DI**NO-based **N**eural **O**ntology for **S**pecimen **A**nalysis and **R**ecognition, version 2) is a multi-modal, Bayesian framework for automated species delimitation in hyperdiverse insect taxa. It fuses three independent evidence streams — vision embeddings (DINOv3), morphological measurements (from Descriptron COCO JSON), and DNA barcodes (COI FASTA) — into a unified adaptive Bayesian classifier that scales to dark taxa with few labelled specimens.
 
-DINOSAR v2 was developed at the **Museum für Naturkunde Berlin (MfN)** within the Centre for Integrative Biodiversity Discovery as part of the **TECTAX** (Taxonomic Expert Collection for Taxonomic AI eXploration) initiative, and is designed to work hand-in-hand with the [Descriptron](https://github.com/alexrvandam/Descriptron) annotation platform.
+DINOSAR_v2 is designed to work hand-in-hand with the [Descriptron](https://github.com/alexrvandam/Descriptron) annotation platform.
 
 ---
 
@@ -229,7 +229,7 @@ See the workflow diagram PDF in the [Releases](https://github.com/alexrvandam/DI
 
 If you use DINOSAR v2 in your research, please cite:
 
-> Van Dam, A. (2026). *DINOSAR v2: Multi-modal Bayesian species delimitation for hyperdiverse insect taxa*. Museum für Naturkunde Berlin. https://doi.org/[Zenodo DOI — update after deposit]
+> Van Dam, A. (2026). *DINOSAR v2 — DINOv3 Species Auto-Recovery version 2: Multi-modal Bayesian species delimitation and recognition for hyperdiverse insect taxa*. [Computer Software] https://github.com/alexrvandam/DINOSAR_v2.
 
 A full methods paper describing the two-tier DINOSAR + Descriptron system is in preparation.
 
@@ -239,7 +239,29 @@ A full methods paper describing the two-tier DINOSAR + Descriptron system is in 
 
 DINOSAR v2 was developed at the **Museum für Naturkunde Berlin** within the Centre for Integrative Biodiversity Discovery. I thank Dr. Francisco Hita Garcia for taxonomic expertise on hyperdiverse ant genera and for providing training datasets for *Tetramorium* and related genera.
 
-The DINOv3 backbone is provided by Meta AI Research ([Oquab et al. 2023](https://arxiv.org/abs/2304.07193)).
+# Additional Literature and Software to Cite if you use this project:
+
+@misc{oquab2024dinov2learningrobustvisual,
+      title={DINOv2: Learning Robust Visual Features without Supervision}, 
+      author={Maxime Oquab and Timothée Darcet and Théo Moutakanni and Huy Vo and Marc Szafraniec and Vasil Khalidov and Pierre Fernandez and Daniel Haziza and Francisco Massa and Alaaeldin El-Nouby and Mahmoud Assran and Nicolas Ballas and Wojciech Galuba and Russell Howes and Po-Yao Huang and Shang-Wen Li and Ishan Misra and Michael Rabbat and Vasu Sharma and Gabriel Synnaeve and Hu Xu and Hervé Jegou and Julien Mairal and Patrick Labatut and Armand Joulin and Piotr Bojanowski},
+      year={2024},
+      eprint={2304.07193},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2304.07193}, 
+}
+
+@misc{siméoni2025dinov3,
+      title={DINOv3}, 
+      author={Oriane Siméoni and Huy V. Vo and Maximilian Seitzer and Federico Baldassarre and Maxime Oquab and Cijo Jose and Vasil Khalidov and Marc Szafraniec and Seungeun Yi and Michaël Ramamonjisoa and Francisco Massa and Daniel Haziza and Luca Wehrstedt and Jianyuan Wang and Timothée Darcet and Théo Moutakanni and Leonel Sentana and Claire Roberts and Andrea Vedaldi and Jamie Tolan and John Brandt and Camille Couprie and Julien Mairal and Hervé Jégou and Patrick Labatut and Piotr Bojanowski},
+      year={2025},
+      eprint={2508.10104},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.10104}, 
+}
+
+Gatis, D. (2025). rembg (Version 2.0.66) [Computer software]. https://github.com/danielgatis/rembg
 
 ---
 
