@@ -527,7 +527,29 @@ Special thanks to collaborators and specimen providers contributing to the devel
 If you use DINOSAR v2 in your research, please cite:
 
 ```text
-Van Dam, A. R. (2026). *DINOSAR v2 — DINOv3 Species Auto-Recovery version 2: Multi-modal Bayesian species delimitation and recognition for hyperdiverse insect taxa*. [Computer Software] Accessed from: https://github.com/alexrvandam/DINOSAR_v2.DINOSAR. https://doi.org/10.5281/zenodo.18935714
+Van Dam, A. R. (2026). DINOSAR v2 — DINOv3 Species Auto-Recovery version 2 — a DINOv3-based contrastive learning framework for species discovery and open-set recognition in hyperdiverse insect taxa (v0.24.1). Zenodo. https://doi.org/10.5281/zenodo.18960729
+```
+```text
+@software{van_dam_2026_18960729,
+  author       = {Van Dam, Alex R.},
+  title        = {DINOSAR v2 — DINOv3 Species Auto-Recovery version
+                   2 — a DINOv3-based contrastive learning framework
+                   for species discovery and open-set recognition in
+                   hyperdiverse insect taxa
+                  },
+  month        = mar,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v0.24.1},
+  doi          = {10.5281/zenodo.18960729},
+  url          = {https://doi.org/10.5281/zenodo.18960729},
+  swhid        = {swh:1:dir:1d3c0aa5e25d52aa079c40ec4f98afa42778a060
+                   ;origin=https://doi.org/10.5281/zenodo.18935713;vi
+                   sit=swh:1:snp:b42888f9d2cbb7d23adaf132311459f5b93a
+                   df42;anchor=swh:1:rel:68bec12a824afdf8fd0d0456f219
+                   69dae2eee3c1;path=alexrvandam-DINOSAR\_v2-7cd8bc4
+                  },
+}
 ```
 
 # Additional Literature and Software to Cite if you use this project:
