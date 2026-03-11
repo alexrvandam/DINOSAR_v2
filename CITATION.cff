@@ -7,13 +7,13 @@ doi: 10.5281/zenodo.XXXXX
 date-released: 2026-03-11
 repository-code: "https://github.com/alexrvandam/DINOSAR_v2"
 url: "https://github.com/alexrvandam/DINOSAR_v2"
-license: MIT
+license: "MIT"
 authors:
   - family-names: "Van Dam"
     given-names: "Alex R."
     orcid: "https://orcid.org/0000-0002-1966-0338"
-affiliation: "Museum für Naturkunde Berlin"
-abstract: "DINOSAR v2 is a DINOv3-based contrastive learning framework for species discovery, and open-set recognition in hyperdiverse insect taxa, with optional multimodal auxiliary learning from morphology, morphometrics, and DNA barcodes."
+    affiliation: "Museum für Naturkunde Berlin"
+abstract: "DINOSAR v2 is a DINOv3-based contrastive learning framework for species discovery and open-set recognition in hyperdiverse insect taxa, with optional multimodal auxiliary learning from morphology, morphometrics, and DNA barcodes."
 keywords:
   - "species delimitation"
   - "computer vision"
