@@ -4,6 +4,10 @@
 
 &#x20;&#x20;
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)](https://pytorch.org/)
+
 **DINOSAR v2** — **DINO**v3 **S**pecies **A**uto-**R**ecovery version 2 — is a DINOv3-based contrastive learning framework for species discovery, zero-shot classification, and open-set recognition in hyperdiverse insect taxa.
 
 This repository version centers on the script:
