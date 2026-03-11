@@ -2,8 +2,6 @@
 
 ## `DINOSAR_v2_contrastive_species_learning_CE_v24.py`
 
-&#x20;&#x20;
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)](https://pytorch.org/)
